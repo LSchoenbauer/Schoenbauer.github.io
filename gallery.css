@@ -1,0 +1,78 @@
+@font-face {
+    font-family: fallFont;
+    src: url('./font/pumpkin-story-font/PumpkinStory-vmKrM.ttf');
+}
+
+body {
+    background-color: #a0582e;
+    font-family: fallFont;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(78, 23, 23);
+    text-shadow: 1px 1px 2px white;
+}
+
+/*beginning*/
+
+#photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.imageRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#lastRow {
+    padding-top: 2%;
+}
+
+.photoBox {
+    width: 25%;
+    min-height: 100%;
+    display: flex;
+}
+
+.singlePhoto {
+    width: 90%;
+    transition: 0.25s;
+    border: solid 0.3em rgb(113, 34, 34);
+    border-radius: 2em;
+}
+
+.singlePhoto:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    border: solid 5px white;
+}   
+
+#subcontainer {
+    background-color: #fff;
+}
+
+/*end*/
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer > div {
+    text-align: center;
+}
+
+footer > div > a {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(78, 23, 23);
+    text-shadow: 0.2px 0.2px 2px white;
+}

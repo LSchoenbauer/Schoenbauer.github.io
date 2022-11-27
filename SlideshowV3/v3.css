@@ -1,0 +1,91 @@
+@font-face {
+    font-family: fallFont;
+    src: url('./font/pumpkin-story-font/PumpkinStory-vmKrM.ttf');
+}
+
+body {
+    background-color: #a0582e;
+    font-family: fallFont;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+#slideshow {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+    align-items: center;
+    column-gap: 2%;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(78, 23, 23);
+    text-shadow: 1px 1px 2px white;
+}
+
+.img {
+    border-radius: 1em 1em;
+    width: 100%;
+}
+
+.frontImg {
+    box-shadow: 0 0 5em rgb(78, 23, 23);
+    border: solid 0.4em rgb(113, 34, 34);
+}
+
+.sideImg {
+    opacity: 50%;
+    border: solid 0.3em rgb(113, 34, 34);
+}
+.sideImg:first-child, .sideImg:last-child {
+    border: solid 0.2em rgb(113, 34, 34);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.button {
+    background-color: rgb(78, 23, 23);
+    color: #a0582e;
+    width: 10%;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 2em;
+    user-select: none;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px white;
+}
+
+footer {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer > div {
+    text-align: center;
+}
+
+footer > div > a {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(78, 23, 23);
+    text-shadow: 0.2px 0.2px 2px white;
+}
+
