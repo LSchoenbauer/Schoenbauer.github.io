@@ -91,6 +91,17 @@ footer > div > a {
 }
 
 @media screen and (max-width: 800px) {
+    #slideshow {
+        width: 100%;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
 
+    #img1 {
+        display: none;
+    }
+
+    #img5 {
+        display: none;
+    }
 }
 
