@@ -76,3 +76,15 @@ footer > div > a {
     color: rgb(78, 23, 23);
     text-shadow: 0.2px 0.2px 2px white;
 }
+
+@media screen and (max-width: 800px) {
+    .imageRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .photobox {
+    }
+}
