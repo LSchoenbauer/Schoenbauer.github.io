@@ -58,3 +58,9 @@ content {
     color: #a0582e;
     padding: 0.4em;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+}
