@@ -92,7 +92,7 @@ footer > div > a {
     .singlePhoto:hover {
         transform: scale(3.5);
         transition: 0.5s;
-        border: solid 2px white;
+        border: solid 2px red;
         border-radius: 1em;
     }
     
