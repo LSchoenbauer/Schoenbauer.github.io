@@ -21,6 +21,7 @@ body {
     grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
     align-items: center;
     column-gap: 2%;
+    user-select: none;
 }
 
 header {
@@ -87,5 +88,9 @@ footer > div > a {
     font-size: 2em;
     color: rgb(78, 23, 23);
     text-shadow: 0.2px 0.2px 2px white;
+}
+
+@media screen and (max-width: 800px) {
+
 }
 
