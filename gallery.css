@@ -30,14 +30,11 @@ header {
     justify-content: space-around;
 }
 
-#lastRow {
-    padding-top: 2%;
-}
-
 .photoBox {
     width: 25%;
     min-height: 100%;
     display: flex;
+    padding-bottom: 5px;
 }
 
 .singlePhoto {
